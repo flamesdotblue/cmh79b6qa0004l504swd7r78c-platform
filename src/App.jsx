@@ -7,7 +7,7 @@ import CTA from './components/CTA';
 function App() {
   return (
     <div className="min-h-screen bg-neutral-950 text-neutral-100 font-inter">
-      <div className="fixed inset-0 -z-0 bg-gradient-to-b from-emerald-900/10 via-transparent to-transparent pointer-events-none" />
+      <div className="fixed inset-0 z-0 bg-gradient-to-b from-emerald-900/10 via-transparent to-transparent pointer-events-none" />
       <Navbar />
       <main>
         <Hero />

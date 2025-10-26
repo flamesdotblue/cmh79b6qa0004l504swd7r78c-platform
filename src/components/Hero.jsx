@@ -27,7 +27,7 @@ const Hero = () => {
           <dl className="mt-10 grid grid-cols-3 gap-6 text-center">
             <div>
               <dt className="text-xs text-neutral-400">Detection latency</dt>
-              <dd className="text-emerald-300 font-semibold text-xl"><span className="tabular-nums">< 50ms</span></dd>
+              <dd className="text-emerald-300 font-semibold text-xl"><span className="tabular-nums">{'< 50ms'}</span></dd>
             </div>
             <div>
               <dt className="text-xs text-neutral-400">Integrity proofs</dt>
